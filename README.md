@@ -11,3 +11,5 @@ It takes two files in .csv format:
 1) The pippeting scheme, containing the scheme of the 384-well plate.
 
 2) The raw data exported form the tecan in a .csv file.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreaquezada/frase_dataanalysis/blob/main/Frase_dataAnalysis_v4.ipynb)
