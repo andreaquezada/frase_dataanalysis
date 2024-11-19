@@ -1,21 +1,49 @@
-# FRASE data analysis
+# FRASE Data Analysis
 
 ## Description
 
-The Fluorescence resonance energy transfer (FRET)-based mHTT aggregate seeding assay is a biophysical assay use to follow the aggregation of Huntingtin Exon 1 (HttEx1) during a time course. Besides of using this assay to study HttEx1 aggregation kinetics, it can also be used to assess the effect of inhibitors or the seeding activity of biological Htt samples.
+The **Fluorescence Resonance Energy Transfer (FRET)-based mHTT Aggregate Seeding Assay** is a biophysical assay used to monitor the aggregation of Huntingtin Exon 1 (HttEx1) over a time course. This assay is versatile and can be employed to study HttEx1 aggregation kinetics, test the efficacy of aggregation inhibitors, or evaluate the seeding activity of biological Htt samples.
 
-It requires the two fluorescently-label proteins (GST-Ex1Q48-CyPet or GST-Ex1Q48-YPet) as decribed in:
+This assay requires two fluorescently labeled proteins:
+- **GST-Ex1Q48-CyPet**
+- **GST-Ex1Q48-YPet**
 
-A. Ast, A. Buntru, F. Schindler, R. Hasenkopf, A. Schulz, L. Brusendorf, K. Klockmeier, G. Grelle, B. McMahon, H. Niederlechner, I. Jansen, L. Diez, J. Edel, A. Boeddrich, S. A. Franklin, B. Baldo, S. Schnoegl, S. Kunz, B. Purfurst, A. Gaertner, H. H. Kampinga, A. J. Morton, A. Petersen, J. Kirstein, G. P. Bates, and E. E. Wanker. mhtt seeding activity: A marker of disease progression and neurotoxicity in models of huntington’s disease. Molecular Cell, 71:675– 688.e6, 9 2018.
+For more details on the experimental setup, refer to the publication:
+> A. Ast, A. Buntru, F. Schindler, et al. *mhtt seeding activity: A marker of disease progression and neurotoxicity in models of Huntington’s disease*. Molecular Cell, 71:675–688.e6, 2018.  
+> [DOI:10.1016/j.molcel.2018.07.033](https://doi.org/10.1016/j.molcel.2018.07.033)
 
-This script is designed to analyze FRASE data from this system using a 384-well reading plate and a Tecan reader.
+This Jupyter Notebook is designed to analyze FRASE data from this system using a 384-well plate and a Tecan reader. It automates the data analysis workflow, taking raw data and experimental designs as input to produce meaningful insights and visualizations.
 
-It takes two files in .csv format:
+## Input Requirements
 
-1) The pippeting scheme, containing the scheme of the 384-well plate.
+This script requires the following two input files in `.csv` format:
 
-2) The raw data exported form the tecan in a .csv file.
+1. **Pipetting Scheme:** Contains the layout of the 384-well plate, specifying the contents of each well.
+2. **Raw Data File:** The data exported directly from the Tecan reader.
 
+## Features
+
+- Processes raw data and maps it to the experimental layout.
+- Filters unwanted data (e.g., blanks, controls).
+- Produces visualizations for tracking aggregation kinetics.
+- Outputs cleaned data and results in a format ready for publication or further analysis.
+
+## Usage
+
+### Local Execution
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   
+2.	Upload the required input files (.csv) when prompted.
+
+### Google Colab
+
+You can run this notebook directly on Google Colab for free:
+
+	1.	Click the Open in Colab button above.
+	2.	Upload the required .csv files when prompted.
+	3.	Follow the instructions in the notebook to process and visualize your data.
 ---
 
 ## Contribution
@@ -26,7 +54,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## Contact
 
-For questions or issues, contact the project maintainer at andreagtzq@gmail.com
+For questions or issues, contact me at andreagtzq@gmail.com
 
 ---
 
