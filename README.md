@@ -16,8 +16,6 @@ It takes two files in .csv format:
 
 2) The raw data exported form the tecan in a .csv file.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreaquezada/frase_dataanalysis/blob/main/Frase_dataAnalysis_v4.ipynb)
-
 ---
 
 ## Contribution
@@ -35,3 +33,11 @@ For questions or issues, contact the project maintainer at andreagtzq@gmail.com
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Colab notebook
+
+Run this notebook on Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreaquezada/frase_dataanalysis/blob/main/Frase_dataAnalysis_v4.ipynb)
