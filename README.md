@@ -2,7 +2,7 @@
 
 ## Description
 
-The **Fluorescence Resonance Energy Transfer (FRET)-based mHTT Aggregate Seeding Assay** is a biophysical assay used to monitor the aggregation of Huntingtin Exon 1 (HttEx1) over a time course. This assay is versatile and can be employed to study HttEx1 aggregation kinetics, test the efficacy of aggregation inhibitors, or evaluate the seeding activity of biological Htt samples.
+The **Fluorescence Resonance Energy Transfer (FRET)-based mHTT Aggregate Seeding Assay** is a biophysical assay used to monitor the aggregation of Huntingtin Exon 1 (HttEx1) over a time course. This assay is versatile and can be employed to study HttEx1 aggregation kinetic and test the efficacy of aggregation inhibitors to find potentian therapies.
 
 This assay requires two fluorescently labeled proteins:
 - **GST-Ex1Q48-CyPet**
