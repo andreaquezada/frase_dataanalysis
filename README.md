@@ -54,7 +54,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## Contact
 
-For questions or issues, contact me at andreagtzq@gmail.com
+For questions or issues, contact me at andrea.quezada@pm.me
 
 ---
 
